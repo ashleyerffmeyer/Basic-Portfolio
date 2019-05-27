@@ -100,8 +100,28 @@ h2{
 }
 
 #input{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
     margin: 0 40px 40px 40px;
     padding: 25px 0 0px 0;
+}
+
+input{
+    width: 100%;
+}
+
+.message-input{
+    height: 150px;
+    text-justify: top;
+}
+
+.submit-button{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: none;
+    padding: 8px 20px 8px 20px;
+    width: 100px;
 }
 
 .footer{
@@ -112,6 +132,10 @@ h2{
     border-width: 8px 0 0 0;
     text-align: center;
     overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 * Don't forget to look into these concepts: `float`, `padding`, `margin`, `display`, `overflow`, `clear` and `text-align`.
