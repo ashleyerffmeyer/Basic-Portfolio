@@ -108,11 +108,13 @@ h2{
 
 input{
     width: 100%;
+
 }
 
 .message-input{
     height: 150px;
-    text-justify: top;
+    
+    
 }
 
 .submit-button{
