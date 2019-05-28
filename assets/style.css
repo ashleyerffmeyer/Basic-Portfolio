@@ -8,6 +8,9 @@
 
 body{
     background: url("memphis-mini.png"); 
+    padding: 0;
+    margin: 0;
+    
 }
 
 .nav-bar {
@@ -21,6 +24,7 @@ body{
     align-items: center;
     margin: 0 0 40px 0;
     padding: 30px 0 0 0;
+    
 }
 
 h1{
@@ -36,7 +40,7 @@ ul{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     list-style-type: none;
-    text-align: left;
+    text-align: left;   
 }
 
 li{
@@ -44,6 +48,7 @@ li{
     text-decoration: none;
     padding: 10px;
     margin: 0 10px 0 0;
+    
 }
 
 a:link {
