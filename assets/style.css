@@ -2,9 +2,7 @@
  Basic Portfolio CSS Stylesheet
  **/
 
-/*
 
-*/
 
 body{
     background: url("memphis-mini.png"); 
@@ -110,6 +108,9 @@ input{
 
 .message-input{
     height: 150px;  
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    width: 100%;
 }
 
 .submit-button{
