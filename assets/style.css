@@ -123,11 +123,11 @@ input{
     width: 100px;
 }
 
-.portfolio-table{
+#icons{
     margin: 0 40px 40px 40px;
     padding: 25px 0 0px 0;
     text-align: center;
-    width: 880px;
+    width: 200px;
 }
 
 #row1, #row2, #row3, #row4{
