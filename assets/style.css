@@ -7,7 +7,8 @@
 body{
     background: url("memphis-mini.png"); 
     padding: 0;
-    margin: 0;    
+    margin: 0;  
+     
 }
 
 .nav-bar {
@@ -67,9 +68,9 @@ a:active {
     background-color: #ffffff;
     border-color: #dddddd;
     width: 960px;
-    margin: 0 auto 40px;
+    margin: 0 auto 80px;
     border-style: solid;
-       
+    
 }
 
 h2{
@@ -124,26 +125,67 @@ input{
 }
 
 #eat-cake, #pic1, #pic2, #pic3, #pic4{
-    margin: 0 40px 0px 40px;
-    padding: 40px 0 0px 0;
+    margin: 40px 40px 0px 40px;
+    padding: 0px 0 0px 0;
     text-align: center;
     width: 250px;
-    
 }
 
-#eat-cake-caption, #pic1-caption, #pic2-caption, #pic3-caption, #pic4-caption{
+#eat-cake-caption{
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #ffffff;
-    margin: 0 40px 40px 40px;
-    padding: 20px 0;
+    margin: -60px 40px 40px 40px;
+    padding: 15px 0;
     text-align: center;
     width: 250px;
-    position: absolute; 
+    position: absolute;
+}
+
+#pic1-caption{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: -60px 40px 40px 374px;
+    padding: 15px 0;
+    text-align: center;
+    width: 250px;
+    position: absolute;
+}
+
+#pic2-caption{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: -60px 40px 40px 40px;
+    padding: 15px 0;
+    text-align: center;
+    width: 250px;
+    position: absolute;
+}
+
+#pic3-caption{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: -60px 40px 40px 374px;
+    padding: 15px 0;
+    text-align: center;
+    width: 250px;
+    position: absolute;
+}
+
+#pic4-caption{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: -60px 40px 40px 40px;
+    padding: 15px 0;
+    text-align: center;
+    width: 250px;
+    position: absolute;
 }
     
-
-
 .footer{
     background-color: #666666;
     border-color: #4aaaa5;
