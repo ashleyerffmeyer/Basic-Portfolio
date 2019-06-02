@@ -123,19 +123,26 @@ input{
     width: 100px;
 }
 
-#icons{
-    margin: 0 40px 40px 40px;
-    padding: 25px 0 0px 0;
+#eat-cake, #pic1, #pic2, #pic3, #pic4{
+    margin: 0 40px 0px 40px;
+    padding: 40px 0 0px 0;
     text-align: center;
-    width: 200px;
+    width: 250px;
+    
 }
 
-#row1, #row2, #row3, #row4{
+#eat-cake-caption, #pic1-caption, #pic2-caption, #pic3-caption, #pic4-caption{
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #ffffff;
+    margin: 0 40px 40px 40px;
+    padding: 20px 0;
     text-align: center;
+    width: 250px;
+    position: absolute; 
 }
+    
+
 
 .footer{
     background-color: #666666;
