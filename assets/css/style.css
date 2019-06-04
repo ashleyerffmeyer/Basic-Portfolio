@@ -57,10 +57,12 @@ a:visited {
   
 a:hover {
     text-decoration: underline;
+    color: #48B873;
 }
   
 a:active {
     text-decoration: underline;
+    color: #4882B8;
 }
 
 .content{
@@ -120,6 +122,14 @@ input{
     border: none;
     padding: 8px 20px 8px 20px;
     width: 100px;
+}
+
+.submit-button:hover {
+    color: rgb(184, 72, 137);
+}
+  
+.submit-button:active {
+    color: #4882B8;
 }
 
 #eat-cake, #pic1, #pic2, #pic3, #pic4{
