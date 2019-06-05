@@ -29,6 +29,7 @@ h1{
     background-color: #4aaaa5;
     padding: 40px;
     margin: 0px auto 0px;
+    
 }
 
 ul{
@@ -44,8 +45,14 @@ li{
     display: inline-block;
     text-decoration: none;
     padding: 10px;
-    margin: 0 10px 0 20;
+    border-left: 1px solid #cccccc;
 }
+
+li:first-child{
+    border-left: 0 none;
+}
+
+li:
 
 a:link {
     text-decoration: none;
